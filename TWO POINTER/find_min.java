@@ -7,7 +7,7 @@ public class find_min {
     public static int find_min(int[] arr){
         int start=0,end=arr.length-1;
         int min = 0;
-        while(start<=end){ //&& start<arr.length){
+        while(start<=end){ 
             if(arr[start]<=arr[end]){
                 min = arr[start];
                 end--;
